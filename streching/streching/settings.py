@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "fitness_studio.apps.FitnessStudioConfig"
+    "fitness_studio.apps.FitnessStudioConfig",
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
